@@ -1,0 +1,53 @@
+.text-normal {
+  font-size: 12px;
+  font-weight: 300 !important;
+}
+
+.sub-text {
+  font-family: 'Poppins', sans-serif !important;
+  font-size: 13px;
+  opacity: 0.7;
+  font-weight: 200 !important;
+  line-height: 24px;
+}
+
+.text-large{
+  font-size: 14px;
+  line-height: 2.3;
+  opacity: 0.8;
+  font-weight: 200;
+}
+.text-heading1 {
+  font-family: "Sora", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  opacity: 0.9;
+  line-height: 1.4;
+  /* background-image: linear-gradient(
+    to right,
+    #5d1eff,
+    #745bd9,
+    #ff82c3,
+    #5d1eff
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: 200%;
+  background-position: -100%;
+  animation: animatedText 4s infinite alternate-reverse; */
+}
+@keyframes animatedText {
+  from {
+    background-position: 0%;
+  }
+  to {
+    background-position: 100%;
+  }
+}
+
+.text-heading2 {
+  font-family: "Sora", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.4;
+}

@@ -1,0 +1,58 @@
+.hero-text {
+  font-family: "Sora", sans-serif;
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.hero-text-color {
+  font-family: "Sora", sans-serif;
+  font-size: 44px;
+  font-weight: 600;
+  opacity: 0.9;
+  line-height: 1.4;
+  background-image: linear-gradient(
+    to right,
+    #5d1eff,
+    #745bd9,
+    #ff82c3,
+    #5d1eff
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: 200%;
+  background-position: -100%;
+  animation: animatedText 4s infinite alternate-reverse;
+}
+@keyframes animatedText {
+  from {
+    background-position: 0%;
+  }
+  to {
+    background-position: 100%;
+  }
+}
+/* .why-us-section {
+  background: linear-gradient(to bottom, #160624, #090315);
+} */
+
+.customer-left {
+  background: linear-gradient(to bottom, #1d123b, #361e5b);
+}
+
+.hero-container {
+  background-image: url("../../assets/bg1.png");
+  background-size: contain; /* Cover the entire viewport */
+  background-position: center top !important; /* Center the image horizontally and vertically */
+  background-repeat: no-repeat;
+  animation: moveBackgroundUpDown 2s infinite alternate ease-in-out;
+}
+
+@keyframes moveBackgroundUpDown {
+  0% {
+    background-position: center calc(50% - 20px);
+  }
+  100% {
+    background-position: center calc(50%);
+  }
+}
