@@ -1,64 +1,82 @@
 import React from "react";
 import ButtonPrimary from "../../Components/Button/ButtonPrimary";
-import network from "../../assets/network.svg";
+import vision from "../../assets/vision.png";
+import deep from "../../assets/deep.png";
+import machine from "../../assets/machine.png";
+import data from "../../assets/data.png";
+import web from "../../assets/web.png";
+import devops from "../../assets/devops.png";
 
 const Services = () => {
   return (
     <div className="w-[90%] mx-auto pt-12 pb-36">
       <div className="flex">
-        <div className="w-[60%] px-8">
+        <div className="w-[100%] px-8">
           <p className="text-heading1 ">Our Services</p>
-          <p className="sub-text mt-6">
-            Intellektx offers a diverse range of innovative solutions, driven by
-            cutting-edge technology and unparalleled expertise, tailored to meet
-            your unique needs and objectives. Explore our offerings today
-          </p>
+          <div className="flex flex-wrap gap-10 justify-between mt-20">
+          <div
+          className="bg-[#1b0d38] flex justify-center items-center px-10 py-10 max-lg:w-[100%] w-[30%] max-w-[400px] min-h-[300px] mx-auto"
+          style={{ boxShadow: " 0px 25px 20px -20px #361E5B45" }}
+        >
           <div>
-            <div className="flex items-center mt-12">
-              <p className="w-[400px]">Computer Vision</p>
-              <p className="sub-text w-fit">
-                Empowering machines with the ability to interpret the visual
-                world, with advanced image analysis
-              </p>
-            </div>
-
-            <div className="flex items-center mt-8">
-              <p className="w-[400px]">Deep Learning</p>
-              <p className="sub-text w-fit">
-                Harnessing neural networks to enable machines to learn and make
-                complex decisions, in AI and automation
-              </p>
-            </div>
-
-            <div className="flex items-center mt-8">
-              <p className="w-[400px]">Machine Learning</p>
-              <p className="sub-text w-fit">
-                Machines to learn from data, enabling predictive insights and
-                intelligent automation for diverse applications
-              </p>
-            </div>
-
-            <div className="flex items-center mt-8">
-              <p className="w-[400px]">Data Analytics</p>
-              <p className="sub-text w-fit">
-                Extracting actionable insights from data to inform strategic
-                decisions and drive business growth
-              </p>
-            </div>
-
-            <div className="flex items-center mt-8">
-              <p className="w-[400px]">Full Stack Development</p>
-              <p className="sub-text w-fit">
-                Crafting complete digital solutions, ensuring smooth user
-                experiences and powerful functionality
-              </p>
-            </div>
+          <img src={vision} className="mx-auto w-[60px]" alt="services"/>
+          <p className="text-center mt-5">Computer Vision</p>
           </div>
-          <ButtonPrimary text={"Learn More"} className="mt-10" />
         </div>
-        <div className="w-[50%] flex justify-center items-center">
-          <img src={network} className="w-[70%] " />
+
+        <div
+          className="bg-[#1b0d38] flex justify-center items-center px-10 py-10 max-lg:w-[100%] w-[30%] max-w-[400px] min-h-[300px] mx-auto"
+          style={{ boxShadow: " 0px 25px 20px -20px #361E5B45" }}
+        >
+          <div>
+          <img src={deep} className="mx-auto w-[60px]" alt="services"/>
+          <p className="text-center mt-5">Deep Learning</p>
+          </div>
         </div>
+
+        <div
+          className="bg-[#1b0d38] flex justify-center items-center px-10 py-10 max-lg:w-[100%] w-[30%] max-w-[400px] min-h-[300px] mx-auto"
+          style={{ boxShadow: " 0px 25px 20px -20px #361E5B45" }}
+        >
+          <div>
+          <img src={machine} className="mx-auto w-[60px]" alt="services"/>
+          <p className="text-center mt-5">Machine Learning</p>
+          </div>
+        </div>
+
+        <div
+          className="bg-[#1b0d38] flex justify-center items-center px-10 py-10 max-lg:w-[100%] w-[30%] max-w-[400px] min-h-[300px] mx-auto"
+          style={{ boxShadow: " 0px 25px 20px -20px #361E5B45" }}
+        >
+          <div>
+          <img src={data} className="mx-auto w-[60px]" alt="services"/>
+          <p className="text-center mt-5">Data Analytics</p>
+          </div>
+        </div>
+
+        <div
+          className="bg-[#1b0d38] flex justify-center items-center px-10 py-10 max-lg:w-[100%] w-[30%] max-w-[400px] min-h-[300px] mx-auto"
+          style={{ boxShadow: " 0px 25px 20px -20px #361E5B45" }}
+        >
+          <div>
+          <img src={web} className="mx-auto w-[60px]" alt="services"/>
+          <p className="text-center mt-5">Full Stack Development</p>
+          </div>
+        </div>
+
+        <div
+          className="bg-[#1b0d38] flex justify-center items-center px-10 py-10 max-lg:w-[100%] w-[30%] max-w-[400px] min-h-[300px] mx-auto"
+          style={{ boxShadow: " 0px 25px 20px -20px #361E5B45" }}
+        >
+          <div>
+          <img src={devops} className="mx-auto w-[60px]" alt="services"/>
+          <p className="text-center mt-5">Devops</p>
+          </div>
+        </div>
+          </div>
+          <ButtonPrimary text={"Explore More"} className="mt-10" />
+        </div>
+       
       </div>
     </div>
   );

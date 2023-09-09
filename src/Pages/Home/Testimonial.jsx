@@ -25,13 +25,13 @@ const Testimonial = () => {
     },
   ];
   return (
-    <div className="w-[90%] mx-auto pt-12 px-24 pb-36">
-      <div className="flex" style={{ boxShadow: " 0px 25px 20px -20px #361E5B45" }}>
-        <div className="w-[35%] px-16 flex justify-center items-center customer-left">
+    <div className="w-[90%] mx-auto pt-12 lg:px-24 pb-36">
+      <div className="flex max-md:flex-col" style={{ boxShadow: " 0px 25px 20px -20px #361E5B45" }}>
+        <div className="w-[35%] max-md:w-[100%] px-16 py-16 flex justify-center items-center customer-left">
           <p className="text-heading2">Our customers saying</p>
         </div>
-        <div className="w-[65%] bg-[#0e0521] pt-24 ">
-          <div className="px-24 pb-4">
+        <div className="w-[65%] max-md:w-[100%] bg-[#0e0521] pt-24 ">
+          <div className="px-24 max-[600px]:px-6 pb-4 ">
             <p className="text-large">" {testimonial[0].text} "</p>
             <div className="mt-10">
               <p className="text-xl opacity-80">{testimonial[0].name}</p>

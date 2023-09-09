@@ -42,7 +42,7 @@
 
 .hero-container {
   background-image: url("../../assets/bg1.png");
-  background-size: contain; /* Cover the entire viewport */
+  background-size: cover; /* Cover the entire viewport */
   background-position: center top !important; /* Center the image horizontally and vertically */
   background-repeat: no-repeat;
   animation: moveBackgroundUpDown 2s infinite alternate ease-in-out;
@@ -54,5 +54,15 @@
   }
   100% {
     background-position: center calc(50%);
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .about-content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-text {
+    width: 100% !important;
+    text-align: center;
   }
 }

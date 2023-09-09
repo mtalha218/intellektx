@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <div className='hero-container  '>
       <Navbar />
-      <div className=' mt-20 text-center'>
+      <div className=' mt-20 text-center max-w-[80%] mx-auto'>
         <p className='hero-text-color'>
           Empowering your business with
         </p>
