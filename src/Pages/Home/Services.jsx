@@ -5,14 +5,14 @@ import deep from "../../assets/deep.png";
 import machine from "../../assets/machine.png";
 import data from "../../assets/data.png";
 import web from "../../assets/web.png";
-import devops from "../../assets/devops.png";
+import ar from "../../assets/ar.png";
 
 const Services = () => {
   return (
     <div className="w-[90%] mx-auto pt-12 pb-36">
       <div className="flex">
         <div className="w-[100%] px-8">
-          <p className="text-heading1 ">Our Services</p>
+          <p className="text-heading1 w-fit mx-auto">Our Services</p>
           <div className="flex flex-wrap gap-10 justify-between mt-20">
           <div
           className="bg-[#1b0d38] flex justify-center items-center px-10 py-10 max-lg:w-[100%] w-[30%] max-w-[400px] min-h-[300px] mx-auto"
@@ -69,12 +69,12 @@ const Services = () => {
           style={{ boxShadow: " 0px 25px 20px -20px #361E5B45" }}
         >
           <div>
-          <img src={devops} className="mx-auto w-[60px]" alt="services"/>
-          <p className="text-center mt-5">Devops</p>
+          <img src={ar} className="mx-auto w-[60px]" alt="services"/>
+          <p className="text-center mt-5">AR / VR</p>
           </div>
         </div>
           </div>
-          <ButtonPrimary text={"Explore More"} className="mt-10" />
+          <ButtonPrimary text={"Explore More"} className="mt-20 mx-auto" />
         </div>
        
       </div>

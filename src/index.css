@@ -9,7 +9,7 @@
   letter-spacing: 1.1px;
   color-scheme: light dark;
   color: #ffffff;
-  background: linear-gradient(to right, #160d2d, #090315);
+  background: linear-gradient(to right, #01000A, #090315);
 
   /* background: radial-gradient(circle at center, #472966, #081332); */
   
@@ -36,7 +36,7 @@
 }
 
 ::-webkit-scrollbar-track {
-  background-color: #11071B; /* Set your desired background color here */
+  background-color: #1b0d38; /* Set your desired background color here */
 }
 
 html {
