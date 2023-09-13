@@ -25,12 +25,11 @@ const Navbar = () => {
         <h2>Logo</h2>
         {windowWidth > 768 ? (
           <div className="flex text-normal items-center gap-9">
-            <p className="cursor-pointer">About us</p>
-            <p className="cursor-pointer">Services</p>
-            <p className="cursor-pointer">Portfolio</p>
-            <p className="cursor-pointer">Our Team</p>
+            <a className="cursor-pointer" href="/#aboutus">About us</a>
+            <a className="cursor-pointer" href="/#services">Services</a>
+            {/* <a className="cursor-pointer">Portfolio</a> */}
 
-            <ButtonPrimary text="Contact us" />
+            <ButtonPrimary href="#contact" text="Contact us" />
           </div>
         ) : (
           <img

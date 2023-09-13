@@ -9,7 +9,7 @@ import ar from "../../assets/ar.png";
 
 const Services = () => {
   return (
-    <div className="w-[90%] mx-auto pt-12 pb-36">
+    <div className="w-[90%] mx-auto pt-12 pb-36" id="services">
       <div className="flex">
         <div className="w-[100%] px-8">
           <p className="text-heading1 w-fit mx-auto">Our Services</p>

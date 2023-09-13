@@ -4,7 +4,7 @@ import arrow from "../../assets/arrow.svg"
 const Testimonial = () => {
   const testimonial = [
     {
-      text: "Intellektx has been a game-changer for us. Their deep understanding of AI and data science reshaped our strategies, boosting productivity and revenue. The team's dedication and innovation have made them our trusted partner for cutting-edge solutions.",
+      text: "Intelektx has been a game-changer for us. Their deep understanding of AI and data science reshaped our strategies, boosting productivity and revenue. The team's dedication and innovation have made them our trusted partner for cutting-edge solutions.",
       name: "George Patterson",
       pos: "Managing Director",
     },

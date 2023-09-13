@@ -7,7 +7,7 @@ import twitter from "../../assets/twitter.png";
 import ButtonPrimary from "../../Components/Button/ButtonPrimary";
 const ContactUs = () => {
   return (
-    <div className="w-[90%] mx-auto pt-12 pb-36 px-24  contact-us max-xl:px-6 max-sm:px-0">
+    <div className="w-[90%] mx-auto pt-12 pb-36 px-24  contact-us max-xl:px-6 max-sm:px-0" id="contact">
       <div className="flex max-lg:flex-col">
         <div className="w-[40%] px-8 max-lg:w-[100%] max-sm:px-0">
           <p className="text-heading1 ">Contact Us</p>
