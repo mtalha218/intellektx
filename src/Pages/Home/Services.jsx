@@ -9,13 +9,13 @@ import ar from "../../assets/ar.png";
 
 const Services = () => {
   return (
-    <div className="w-[90%] mx-auto pt-12 pb-36" id="services">
+    <div className="w-[90%] mx-auto pt-12 pb-36 max-w-[1400px]" id="services">
       <div className="flex">
-        <div className="w-[100%] px-8">
+        <div className="w-[100%]">
           <p className="text-heading1 w-fit mx-auto">Our Services</p>
           <div className="flex flex-wrap gap-10 justify-between mt-20">
           <div
-          className="bg-[#1b0d38] flex justify-center items-center px-10 py-10 max-lg:w-[100%] w-[30%] max-w-[400px] min-h-[300px] mx-auto"
+          className="bg-[#1b0d38] flex justify-center items-center px-10 py-10 max-lg:w-[100%] w-[30%] min-h-[300px] mx-auto"
           style={{ boxShadow: " 0px 25px 20px -20px #361E5B45" }}
         >
           <div>
@@ -25,7 +25,7 @@ const Services = () => {
         </div>
 
         <div
-          className="bg-[#1b0d38] flex justify-center items-center px-10 py-10 max-lg:w-[100%] w-[30%] max-w-[400px] min-h-[300px] mx-auto"
+          className="bg-[#1b0d38] flex justify-center items-center px-10 py-10 max-lg:w-[100%] w-[30%] min-h-[300px] mx-auto"
           style={{ boxShadow: " 0px 25px 20px -20px #361E5B45" }}
         >
           <div>
@@ -35,7 +35,7 @@ const Services = () => {
         </div>
 
         <div
-          className="bg-[#1b0d38] flex justify-center items-center px-10 py-10 max-lg:w-[100%] w-[30%] max-w-[400px] min-h-[300px] mx-auto"
+          className="bg-[#1b0d38] flex justify-center items-center px-10 py-10 max-lg:w-[100%] w-[30%] min-h-[300px] mx-auto"
           style={{ boxShadow: " 0px 25px 20px -20px #361E5B45" }}
         >
           <div>
@@ -45,7 +45,7 @@ const Services = () => {
         </div>
 
         <div
-          className="bg-[#1b0d38] flex justify-center items-center px-10 py-10 max-lg:w-[100%] w-[30%] max-w-[400px] min-h-[300px] mx-auto"
+          className="bg-[#1b0d38] flex justify-center items-center px-10 py-10 max-lg:w-[100%] w-[30%] min-h-[300px] mx-auto"
           style={{ boxShadow: " 0px 25px 20px -20px #361E5B45" }}
         >
           <div>
@@ -55,7 +55,7 @@ const Services = () => {
         </div>
 
         <div
-          className="bg-[#1b0d38] flex justify-center items-center px-10 py-10 max-lg:w-[100%] w-[30%] max-w-[400px] min-h-[300px] mx-auto"
+          className="bg-[#1b0d38] flex justify-center items-center px-10 py-10 max-lg:w-[100%] w-[30%] min-h-[300px] mx-auto"
           style={{ boxShadow: " 0px 25px 20px -20px #361E5B45" }}
         >
           <div>
@@ -65,7 +65,7 @@ const Services = () => {
         </div>
 
         <div
-          className="bg-[#1b0d38] flex justify-center items-center px-10 py-10 max-lg:w-[100%] w-[30%] max-w-[400px] min-h-[300px] mx-auto"
+          className="bg-[#1b0d38] flex justify-center items-center px-10 py-10 max-lg:w-[100%] w-[30%] min-h-[300px] mx-auto"
           style={{ boxShadow: " 0px 25px 20px -20px #361E5B45" }}
         >
           <div>

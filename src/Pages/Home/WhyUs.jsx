@@ -4,7 +4,7 @@ import cost from "../../assets/cost.png";
 import fast from "../../assets/fast.png";
 const WhyUs = () => {
   return (
-    <div className="w-[90%] mx-auto pt-12 pb-36">
+    <div className="w-[90%] mx-auto pt-12 pb-36 max-w-[1400px]">
       <p className="text-heading1 text-center">Why Choose Intelektx</p>
       <div className="mt-16 flex justify-between why-us-section max-lg:flex-col max-lg:items-center max-lg:gap-10">
         <div

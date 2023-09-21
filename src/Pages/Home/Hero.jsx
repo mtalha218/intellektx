@@ -14,9 +14,9 @@ const Hero = () => {
         </p>
         <p className='hero-text'>AI technology</p>
         <p className='sub-text mt-4'>Innovative, AI-driven solutions for businesses, transforming data into actionable insights, and driving growth. </p>
-        <ButtonPrimary text="What we do?" className="mt-8 mx-auto" />
+        <ButtonPrimary text="What we do?" href="#services" className="mt-8 mx-auto" />
       </div>
-      <img src={heroImg} className='w-[100%] h-fit mt-10 opacity-90' />
+      <img src={heroImg} className='w-[100%]mt-10 opacity-90' />
     </div>
   )
 }
