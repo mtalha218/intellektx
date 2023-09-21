@@ -23,7 +23,7 @@ const Navbar = () => {
   return (
     <div className="mx-auto w-[90%] max-w-screen-xl">
       <div className="py-8 flex justify-between">
-        <img src={logo} style={{width:"200px"}}/>
+        <img src={logo} style={{width:"200px", height:"auto"}}/>
         {windowWidth > 768 ? (
           <div className="flex text-normal items-center gap-9">
             <a className="cursor-pointer" href="/#aboutus">About us</a>
