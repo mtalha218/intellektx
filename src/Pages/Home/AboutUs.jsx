@@ -9,7 +9,7 @@ const WhyUs = () => {
           <img src={brain2} className="w-[100%] lg:max-w-[450px] md: max-w-[350px]" />
         </div>
         <div className="w-[50%] md:p-8 lg:p-12 xl:p-24 about-text">
-          <p className="text-heading1 min-[320px]:mt-5 lg:mt-0">Who We Are</p>
+          <p className="text-heading1 min-[320px]:mt-5 lg:mt-0">About Us</p>
           <p className="sub-text mt-6">
             At Intelektx, we're not just a technology company; we're your
             partners in innovation. With a passion for harnessing the power of

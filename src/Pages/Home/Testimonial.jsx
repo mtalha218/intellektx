@@ -5,27 +5,33 @@ const Testimonial = () => {
   const testimonials = [
     {
       text:
-        "Intelektx has been a game-changer for us. Their deep understanding of AI and data science reshaped our strategies, boosting productivity and revenue. The team's dedication and innovation have made them our trusted partner for cutting-edge solutions.",
+        "Intelektx has been a game-changer for us. Their deep understanding of AI and data science reshaped our strategies, boosting productivity and revenue. The team's dedication and innovation have made them our trusted partner for cutting-edge solutions",
       name: "George Patterson",
-      pos: "Managing Director, Youtube",
+      pos: "CTO",
     },
     {
       text:
-        "Intelektx has been a game-changer for us. Their deep understanding of AI and data science reshaped our strategies, boosting productivity and revenue. The team's dedication and innovation have made them our trusted partner for cutting-edge solutions",
+        "Intelektx is a game-changer! Their AI solutions streamlined our operations, and their web software is top-notch. The team's dedication to excellence and client satisfaction is commendable. Highly recommend!",
       name: "David Beckham",
-      pos: "CEO, Homme Fragrance",
+      pos: "CEO",
     },
     {
       text:
-        "Intelektx has been a game-changer for us. Their deep understanding of AI and data science reshaped our strategies, boosting productivity and revenue. The team's dedication and innovation have made them our trusted partner for cutting-edge solutions",
-      name: "Cristiano Ronaldo",
-      pos: "Managing Director, Apple Pvt",
+        "Intelektx brought our vision to life with their web software expertise. Their AI solutions enhanced our productivity significantly. The team's professionalism and support made the journey seamless. Exceptional service!",
+      name: "Cristiano Richard",
+      pos: "CEO",
     },
     {
       text:
-        "Intelektx has been a game-changer for us. Their deep understanding of AI and data science reshaped our strategies, boosting productivity and revenue. The team's dedication and innovation have made them our trusted partner for cutting-edge solutions",
-      name: "Robert De Niro",
-      pos: "COO, Record Pvt",
+        "Intelektx is a true partner. Their AI and web software solutions have revolutionized our business. Their commitment to innovation and customer-centric approach make them our go-to choice. Phenomenal work!",
+      name: "Robert Alan",
+      pos: "CTO",
+    },
+    {
+      text:
+        "Intelektx exceeded our expectations! Their AI and web software services transformed our company. The team's expertise and personalized approach made the entire process a breeze. We're thrilled with the results! Thank you, Intelektx!",
+      name: "Ben Affleck",
+      pos: "Director of Operation",
     },
   ];
 

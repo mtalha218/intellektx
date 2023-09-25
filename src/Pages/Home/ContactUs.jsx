@@ -14,12 +14,12 @@ const ContactUs = () => {
           <div>
           <div className="flex items-center gap-10 mt-12">
             <img className="w-[30px]" src={gmail} />
-            <p className="opacity-70">abcd123@gmail.com</p>
+            <p className="opacity-70">intelektx@gmail.com</p>
           </div>
-          <div className="flex items-center gap-8 mt-10">
+          {/* <div className="flex items-center gap-8 mt-10">
             <img className="w-[35px]" src={phone} />
             <p className="opacity-70">+92 331 1233456</p>
-          </div>
+          </div> */}
 
           <div className="flex gap-12 mt-12">
             <img className="w-[40px] cursor-pointer" src={linkedin} />
