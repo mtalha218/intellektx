@@ -14,17 +14,17 @@ const Footer = () => {
                 </a>
               </li>
               <li className="mb-2">
-                <a className="text-xs opacity-60" href="/services">
+                <a className="text-xs opacity-60" href="#services">
                   Services
                 </a>
               </li>
               <li className="mb-2">
-                <a className="text-xs opacity-60" href="/about">
+                <a className="text-xs opacity-60" href="#aboutus">
                   About
                 </a>
               </li>
               <li className="mb-2">
-                <a className="text-xs opacity-60" href="/contact">
+                <a className="text-xs opacity-60" href="#contact">
                   Contact
                 </a>
               </li>
@@ -40,27 +40,27 @@ const Footer = () => {
                 </a>
               </li>
               <li className="mb-2">
-                <a className="text-xs opacity-60" href="/services">
+                <a className="text-xs opacity-60" >
                   Machine Learning
                 </a>
               </li>
               <li className="mb-2">
-                <a className="text-xs opacity-60" href="/about">
+                <a className="text-xs opacity-60" >
                   Deep Learning
                 </a>
               </li>
               <li className="mb-2">
-                <a className="text-xs opacity-60" href="/contact">
+                <a className="text-xs opacity-60">
                   Data Analytics
                 </a>
               </li>
               <li className="mb-2">
-                <a className="text-xs opacity-60" href="/contact">
+                <a className="text-xs opacity-60" >
                   Full Stack Development
                 </a>
               </li>
               <li className="mb-2">
-                <a className="text-xs opacity-60" href="/contact">
+                <a className="text-xs opacity-60">
                   AR / VR
                 </a>
               </li>
@@ -76,17 +76,17 @@ const Footer = () => {
                 </a>
               </li>
               <li className="mb-2">
-                <a className="text-xs opacity-60" href="/services">
+                <a className="text-xs opacity-60" >
                   LinkedIn
                 </a>
               </li>
               <li className="mb-2">
-                <a className="text-xs opacity-60" href="/about">
+                <a className="text-xs opacity-60" >
                   Instagram
                 </a>
               </li>
               <li className="mb-2">
-                <a className="text-xs opacity-60" href="/contact">
+                <a className="text-xs opacity-60" >
                   Twitter
                 </a>
               </li>

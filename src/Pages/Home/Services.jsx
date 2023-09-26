@@ -38,7 +38,7 @@ const Services = () => {
               <div className="flip-card-inner bg-[#1b0d38] w-[100%] ">
                 <div className="flip-card-front flex flex-col justify-center items-center">
                   <img
-                    src={vision}
+                    src={deep}
                     className="mx-auto w-[60px]"
                     alt="services"
                   />
@@ -56,7 +56,7 @@ const Services = () => {
               <div className="flip-card-inner bg-[#1b0d38] w-[100%] ">
                 <div className="flip-card-front flex flex-col justify-center items-center">
                   <img
-                    src={vision}
+                    src={machine}
                     className="mx-auto w-[60px]"
                     alt="services"
                   />
@@ -74,7 +74,7 @@ const Services = () => {
               <div className="flip-card-inner bg-[#1b0d38] w-[100%] ">
                 <div className="flip-card-front flex flex-col justify-center items-center">
                   <img
-                    src={vision}
+                    src={data}
                     className="mx-auto w-[60px]"
                     alt="services"
                   />
@@ -92,7 +92,7 @@ const Services = () => {
               <div className="flip-card-inner bg-[#1b0d38] w-[100%] ">
                 <div className="flip-card-front flex flex-col justify-center items-center">
                   <img
-                    src={vision}
+                    src={web}
                     className="mx-auto w-[60px]"
                     alt="services"
                   />
@@ -110,7 +110,7 @@ const Services = () => {
               <div className="flip-card-inner bg-[#1b0d38] w-[100%] ">
                 <div className="flip-card-front flex flex-col justify-center items-center">
                   <img
-                    src={vision}
+                    src={ar}
                     className="mx-auto w-[60px]"
                     alt="services"
                   />
