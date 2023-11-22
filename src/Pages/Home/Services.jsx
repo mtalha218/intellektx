@@ -6,8 +6,11 @@ import machine from "../../assets/machine.png";
 import data from "../../assets/data.png";
 import web from "../../assets/web.png";
 import ar from "../../assets/ar.png";
+import { useNavigate } from "react-router-dom";
 
 const Services = () => {
+
+  const navigate = useNavigate()
   return (
     <div className="w-[90%] mx-auto pt-12 pb-36 max-w-[1400px]" id="services">
       <div className="flex">
@@ -16,7 +19,7 @@ const Services = () => {
           <div className="flex flex-wrap gap-10 justify-between mt-20">
             {/* __________________________________________________________________________________________ */}
 
-            <div className="flip-card  max-lg:w-[100%] w-[30%] min-h-[300px] mx-auto">
+            <div className="flip-card  max-lg:w-[100%] w-[30%] min-h-[300px] mx-auto cursor-pointer" onClick={()=>navigate("/services/computer-vision")}>
               <div className="flip-card-inner bg-[#1b0d38] w-[100%] ">
                 <div className="flip-card-front flex flex-col justify-center items-center">
                   <img
@@ -34,7 +37,7 @@ const Services = () => {
 
             {/* __________________________________________________________________________________________ */}
 
-            <div className="flip-card  max-lg:w-[100%] w-[30%] min-h-[300px] mx-auto">
+            <div className="flip-card  max-lg:w-[100%] w-[30%] min-h-[300px] mx-auto cursor-pointer" onClick={()=>navigate("/services/deep-learning")}>
               <div className="flip-card-inner bg-[#1b0d38] w-[100%] ">
                 <div className="flip-card-front flex flex-col justify-center items-center">
                   <img
@@ -52,7 +55,7 @@ const Services = () => {
 
             {/* __________________________________________________________________________________________ */}
 
-            <div className="flip-card  max-lg:w-[100%] w-[30%] min-h-[300px] mx-auto">
+            <div className="flip-card  max-lg:w-[100%] w-[30%] min-h-[300px] mx-auto cursor-pointer" onClick={()=>navigate("/services/machine-learning")}>
               <div className="flip-card-inner bg-[#1b0d38] w-[100%] ">
                 <div className="flip-card-front flex flex-col justify-center items-center">
                   <img
@@ -70,7 +73,7 @@ const Services = () => {
 
             {/* __________________________________________________________________________________________ */}
 
-            <div className="flip-card  max-lg:w-[100%] w-[30%] min-h-[300px] mx-auto">
+            <div className="flip-card  max-lg:w-[100%] w-[30%] min-h-[300px] mx-auto cursor-pointer" onClick={()=>navigate("/services/data-analytics")}>
               <div className="flip-card-inner bg-[#1b0d38] w-[100%] ">
                 <div className="flip-card-front flex flex-col justify-center items-center">
                   <img
@@ -88,7 +91,7 @@ const Services = () => {
 
             {/* __________________________________________________________________________________________ */}
 
-            <div className="flip-card  max-lg:w-[100%] w-[30%] min-h-[300px] mx-auto">
+            <div className="flip-card  max-lg:w-[100%] w-[30%] min-h-[300px] mx-auto cursor-pointer" onClick={()=>navigate("/services/fullstack-develpoment")}>
               <div className="flip-card-inner bg-[#1b0d38] w-[100%] ">
                 <div className="flip-card-front flex flex-col justify-center items-center">
                   <img
@@ -106,7 +109,7 @@ const Services = () => {
 
             {/* __________________________________________________________________________________________ */}
 
-            <div className="flip-card  max-lg:w-[100%] w-[30%] min-h-[300px] mx-auto">
+            <div className="flip-card  max-lg:w-[100%] w-[30%] min-h-[300px] mx-auto cursor-pointer" onClick={()=>navigate("/services/ar-vr")}>
               <div className="flip-card-inner bg-[#1b0d38] w-[100%] ">
                 <div className="flip-card-front flex flex-col justify-center items-center">
                   <img
